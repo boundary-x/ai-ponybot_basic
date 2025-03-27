@@ -508,7 +508,6 @@ namespace AIponybot {
         Blue,
         //% block="노란색"
         Yellow
-        // 'White'는 제거됨
     }
 
     class tcs3472 {

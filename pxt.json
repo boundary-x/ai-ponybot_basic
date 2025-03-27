@@ -1,6 +1,7 @@
 {
-    "name": "AI ponybot basic",
-    "description": "",
+    "name": "ai-ponybot-basic",
+    "description": "boundaryX AI ponybot extension blocks for mirco:bit",
+    "license": "MIT",
     "dependencies": {
         "core": "*"
     },

@@ -1,5 +1,5 @@
 {
-    "name": "AI ponybot_basic",
+    "name": "AI ponybot basic",
     "description": "",
     "dependencies": {
         "core": "*"

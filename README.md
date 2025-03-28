@@ -84,4 +84,6 @@ https://github.com/boundary-x/ai_ponybot_basic
 - boundaryX – Future-focused EdTech company providing hardware + AI education kits
   차세대 융합 기술 교육 콘텐츠와 교구를 개발하는 에듀테크 스타트업 boundaryX
 - Website: https://boundaryx.io
+- product webpage : https://boundaryx.io/shop/?idx=26
 - E-mail : hi@boundaryx.io
+

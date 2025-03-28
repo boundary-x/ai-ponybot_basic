@@ -7,13 +7,15 @@
     },
     "files": [
         "main.blocks",
-        "main.ts",
-        "README.md"
+        "main.ts"
     ],
     "testFiles": [
         "test.ts"
     ],
+    "icon": "icon.png",
+    "homepage": "https://boundaryx.io",
     "targetVersions": {
+        "target": "7.0.57",
         "targetId": "microbit"
     },
     "supportedTargets": [

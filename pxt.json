@@ -1,5 +1,5 @@
 {
-    "name": "ai-ponybot-basic - 복사",
+    "name": "ai-ponybot-basic",
     "description": "boundaryX AI Ponybot extension blocks for micro:bit",
     "license": "MIT",
     "dependencies": {

@@ -59,13 +59,15 @@ basic.showNumber(dist)
 
 aiPonybot.display(true)
 aiPonybot.showString("Hello!", 0, 0)
+```
+
+---
 
 ## 📦 Installation / 설치 방법
 
 In MakeCode editor, click **Extensions** → search for:  
 MakeCode 에디터에서 **Extensions** 클릭 → 아래 주소 입력  
 https://github.com/boundary-x/ai_ponybot_basic
-```
 
 ---
 

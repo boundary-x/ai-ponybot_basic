@@ -1,48 +1,40 @@
-basic.showString("Test Start")
+// test.ts
 
-// 서보모터 테스트 (예: S1번, 90도)
-AIponybot.servo(AIponybot.Servos.S1, 90)
-basic.pause(500)
+// 초기화 및 기본 동작 테스트
+aiPonybot.servo(aiPonybot.Servo.Servo1, 90)
+aiPonybot.runMotor(aiPonybot.Motor.Motor1, aiPonybot.Direction.Clockwise, 100)
+aiPonybot.stopMotor(aiPonybot.Motor.Motor1)
+aiPonybot.stopAllMotors()
 
-// 모터 1번 정회전 테스트
-AIponybot.MotorRun(AIponybot.Motors.M1, AIponybot.Dir.CW, 100)
-basic.pause(500)
-AIponybot.motorStop(AIponybot.Motors.M1)
+// 메카넘 휠 테스트
+aiPonybot.runMecanum(aiPonybot.Mecanum.Forward, 150)
+basic.pause(1000)
+aiPonybot.runMecanum(aiPonybot.Mecanum.Stop, 0)
 
-// 메카넘 주행 테스트
-AIponybot.MecanumRun(AIponybot.Mecanum.ff, 150)
-basic.pause(500)
-AIponybot.motorStopAll()
-
-// 일반 주행 테스트 (앞으로)
-AIponybot.NomalRun(AIponybot.DirControll.foward, 100)
-basic.pause(500)
-AIponybot.motorStopAll()
+// 일반 방향 제어
+aiPonybot.runNormal(aiPonybot.DirectionControl.Clockwise, 150)
 
 // 라인 센서 테스트
-let leftLine = AIponybot.readLineSensor(AIponybot.lineSensorChannel.reft)
-basic.showNumber(leftLine)
-basic.pause(300)
+let leftLine = aiPonybot.readLineSensor(aiPonybot.LineSensorChannel.Left)
+let rightLine = aiPonybot.readLineSensor(aiPonybot.LineSensorChannel.Right)
+basic.showNumber(leftLine + rightLine)
 
-// 거리 센서 테스트 (cm)
-let dist = AIponybot.ping(AIponybot.PingUnit.Centimeters)
+// 초음파 센서 테스트
+let dist = aiPonybot.ping(aiPonybot.PingUnit.Centimeters)
 basic.showNumber(dist)
-basic.pause(300)
 
 // 색상 센서 테스트
-let r = AIponybot.getRed()
-let g = AIponybot.getGreen()
-let b = AIponybot.getBlue()
-basic.showNumber(r)
-basic.showNumber(g)
-basic.showNumber(b)
+let red = aiPonybot.getRed()
+let green = aiPonybot.getGreen()
+let blue = aiPonybot.getBlue()
+let light = aiPonybot.getLight()
+basic.showNumber(red + green + blue + light)
 
-// OLED 출력 테스트
-AIponybot.display(true)
-AIponybot.clear()
-AIponybot.showString("Hello!", 0, 0)
-basic.pause(1000)
-AIponybot.display(false)
-
-basic.showString("Done")
-// 테스트는 여기로 이동합니다; 이 패키지가 확장으로 사용될 때 컴파일되지 않을 것 입니다.
+// OLED 테스트
+aiPonybot.display(true)
+aiPonybot.clear()
+aiPonybot.showString("Hello!", 0, 0)
+aiPonybot.showNumber(123, 0, 1)
+aiPonybot.horizontalLine(0, 3, 50)
+aiPonybot.verticalLine(64, 0, 30)
+aiPonybot.rectangle(10, 10, 50, 30)

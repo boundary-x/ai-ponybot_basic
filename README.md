@@ -1,5 +1,6 @@
 
-![ai ponybot](https://github.com/user-attachments/assets/d611232a-5f69-4559-8332-26371055343f)
+![ai_ponybot_small_size](https://github.com/user-attachments/assets/43f8077b-dd00-4539-9528-519e3ed12086)
+
 
 # AI Ponybot Extension for micro:bit  
 

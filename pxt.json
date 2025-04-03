@@ -1,6 +1,6 @@
 {
     "name": "ai-ponybot-basic",
-    "version" : "1.0.0",
+    "version": "1.0.0",
     "description": "boundaryX AI Ponybot extension blocks for micro:bit",
     "license": "MIT",
     "dependencies": {
@@ -13,8 +13,6 @@
     "testFiles": [
         "test.ts"
     ],
-    "icon": "icon.png",
-    "homepage": "https://boundaryx.io",
     "targetVersions": {
         "target": "7.0.57",
         "targetId": "microbit"
@@ -22,5 +20,7 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "tsprj"
+    "preferredEditor": "tsprj",
+    "icon": "icon.png",
+    "homepage": "https://boundaryx.io"
 }

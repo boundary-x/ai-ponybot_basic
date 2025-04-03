@@ -68,8 +68,7 @@ https://github.com/boundary-x/ai_ponybot_basic
 ## License
   - MIT License
   (c) 2025 boundaryX
-  - This extension is based on DFRobot/pxt-motor and is licensed under the GNU License
-  - This extension is based on xinabox/pxt-OD01 and is licensed under the MIT License
+  - This extension partially uses code from xinabox/pxt-OD01, which is licensed under the MIT License.
 
 --- 
 

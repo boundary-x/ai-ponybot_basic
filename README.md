@@ -72,6 +72,7 @@ https://github.com/boundary-x/ai_ponybot_basic
   - This extension is based on xinabox/pxt-OD01 and is licensed under the MIT License
   - This extension is based on gbantique/brickcell-color-tcs34725 and is licensed under the MIT License
   - This extension is based on microsoft/pxt-sonar and is licensed under the MIT License
+  - Many thanks to the developers for their work on this extension.
 
 --- 
 
